@@ -3,8 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CardsComponent } from './Cards/cards.component';
+import { searchBarComponent } from './header/search-bar.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
+import { SideNavBarButtonsComponent } from './sideNavBar/side-nav-bar-buttons.component';
+
 import { SideNavBarComponent } from './sideNavBar/side-nav-bar.component';
+import { topNavMenuItemsComponent } from './top-nav-menu-items/top-nav-menu-items.component';
 
 
 
@@ -13,7 +17,11 @@ import { SideNavBarComponent } from './sideNavBar/side-nav-bar.component';
     AppComponent,
     TopNavBarComponent,
     SideNavBarComponent,
-    CardsComponent    
+    CardsComponent,
+    topNavMenuItemsComponent,
+    SideNavBarButtonsComponent,
+    searchBarComponent
+         
   ],
   imports: [
     BrowserModule
