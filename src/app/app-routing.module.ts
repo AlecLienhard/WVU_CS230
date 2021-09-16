@@ -10,13 +10,14 @@ import { sharedDrivesComponent } from './sideNavBar/shared-drives.component';
 import { starredPageComponent } from './sideNavBar/starred-page.component';
 
 const routes: Routes = [
-  { path: 'mainBody', component: BodyMainComponent },
+  { path: 'home', component: BodyMainComponent },
   { path: 'priority', component: priorityPageComponent},
   { path: 'myDrive', component: myDrivePageComponent},
   { path: 'computers', component: computersPageComponent},
   { path: 'starred', component: starredPageComponent},
   { path: 'sharedDrives', component: sharedDrivesComponent},
-  { path: 'recent', component: recentPageComponent}
+  { path: 'recent', component: recentPageComponent},
+  { path: '',   redirectTo: '/myDrive', pathMatch: 'full'}
 ];
 
 @NgModule({
