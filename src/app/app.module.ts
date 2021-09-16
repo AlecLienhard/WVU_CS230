@@ -6,12 +6,21 @@ import { CardsComponent } from './Cards/cards.component';
 import { navBarLayoutComponent } from './header/nav-bar-layout.component';
 import { searchBarComponent } from './header/search-bar.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
+import { BodyMainComponent } from './layout/body-main.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { rightNavBarComponent } from './right-nav-bar/right-nav-bar.component';
+import { computersPageComponent } from './sideNavBar/computers-page.component';
+import { myDrivePageComponent } from './sideNavBar/my-drive-page.component';
+import { priorityPageComponent } from './sideNavBar/priority-page.component';
+import { recentPageComponent } from './sideNavBar/recent-page.component';
+import { sharedDrivesComponent } from './sideNavBar/shared-drives.component';
 import { SideNavBarButtonsComponent } from './sideNavBar/side-nav-bar-buttons.component';
 
 import { SideNavBarComponent } from './sideNavBar/side-nav-bar.component';
+import { starredPageComponent } from './sideNavBar/starred-page.component';
 import { topNavMenuItemsComponent } from './top-nav-menu-items/top-nav-menu-items.component';
+import { AppRoutingModule } from './app-routing.module';
+import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.component';
 
 
 
@@ -26,11 +35,29 @@ import { topNavMenuItemsComponent } from './top-nav-menu-items/top-nav-menu-item
     searchBarComponent,
     LayoutMainComponent,
     navBarLayoutComponent,
-    rightNavBarComponent
+    rightNavBarComponent,
+    BodyMainComponent,
+    sharedDrivesComponent,
+    priorityPageComponent,
+    computersPageComponent,
+    starredPageComponent,
+    recentPageComponent,
+    myDrivePageComponent,
+    sharedWithMeComponent
+
+    
+  
+
+    
+
+   
+  
+    
          
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
     
   ],
   providers: [],
