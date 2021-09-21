@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CardsComponent } from './Cards/cards.component';
+import { priorityCardsComponent } from './Cards/priority-cards.component';
 import { navBarLayoutComponent } from './header/nav-bar-layout.component';
 import { searchBarComponent } from './header/search-bar.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
@@ -29,7 +29,7 @@ import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.componen
     AppComponent,
     TopNavBarComponent,
     SideNavBarComponent,
-    CardsComponent,
+    priorityCardsComponent,
     topNavMenuItemsComponent,
     SideNavBarButtonsComponent,
     searchBarComponent,
