@@ -4,24 +4,29 @@
         <div class="flex-column-2 pe-0">
             <app-side-nav-bar>Loading Left Side Nav Bar</app-side-nav-bar>
         </div>
-        <div class="flex column col">
 
         
-                <router-outlet></router-outlet>
+        
+                <div class="flex column col">
+
+        
+                        <router-outlet></router-outlet>
 
            
-        </div>
-            <div class="flex-column col-7">
-                <app-top-nav-bar>Loading Top Nav Bar</app-top-nav-bar>
-            </div>
-                
-                    <div class="d-flex align-items-end flex-column mb-3" style="height: 200px;">
-                        <app-right-nav-bar>Loading Right Nav Bar</app-right-nav-bar>
-                
-                
-            </div>
-            
         
+                        <div class="flex-column col">
+                            <app-top-nav-bar>Loading Top Nav Bar</app-top-nav-bar>
+           
+                            
+                        
+                            </div>  
+                        </div>
+             
+                        <div class="d-flex align-items-end flex-column" >
+                            <app-right-nav-bar>Loading Right Nav Bar</app-right-nav-bar>
+                        </div>
+            
+                    
     </div>
     
 </div>

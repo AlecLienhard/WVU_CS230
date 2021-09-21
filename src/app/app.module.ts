@@ -21,6 +21,7 @@ import { starredPageComponent } from './sideNavBar/starred-page.component';
 import { topNavMenuItemsComponent } from './top-nav-menu-items/top-nav-menu-items.component';
 import { AppRoutingModule } from './app-routing.module';
 import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.component';
+import { listComponent } from './Lists/list.component';
 
 
 
@@ -43,7 +44,8 @@ import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.componen
     starredPageComponent,
     recentPageComponent,
     myDrivePageComponent,
-    sharedWithMeComponent
+    sharedWithMeComponent,
+    listComponent
 
     
   
