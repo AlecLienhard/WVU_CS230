@@ -22,6 +22,7 @@ import { topNavMenuItemsComponent } from './top-nav-menu-items/top-nav-menu-item
 import { AppRoutingModule } from './app-routing.module';
 import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.component';
 import { listComponent } from './Lists/list.component';
+import { trashPageComponent } from './sideNavBar/trash-page.component';
 
 
 
@@ -45,7 +46,8 @@ import { listComponent } from './Lists/list.component';
     recentPageComponent,
     myDrivePageComponent,
     sharedWithMeComponent,
-    listComponent
+    listComponent,
+    trashPageComponent
 
     
   
