@@ -23,6 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.component';
 import { listComponent } from './Lists/list.component';
 import { trashPageComponent } from './sideNavBar/trash-page.component';
+import { suggestedCardsComponent } from './Cards/suggested-card.component';
 
 
 
@@ -47,7 +48,8 @@ import { trashPageComponent } from './sideNavBar/trash-page.component';
     myDrivePageComponent,
     sharedWithMeComponent,
     listComponent,
-    trashPageComponent
+    trashPageComponent,
+    suggestedCardsComponent
 
     
   
