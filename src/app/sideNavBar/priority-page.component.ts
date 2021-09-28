@@ -1,4 +1,5 @@
 import { Component } from "@angular/core"
+import { contentCard } from "../Cards/card-model"
 
 @Component({
     selector: "app-priority-page",
@@ -6,5 +7,5 @@ import { Component } from "@angular/core"
 })
 
 export class priorityPageComponent{
-    
+
 }

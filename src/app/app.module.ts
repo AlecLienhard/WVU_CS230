@@ -24,6 +24,7 @@ import { sharedWithMeComponent } from './sideNavBar/shared-with-me-page.componen
 import { listComponent } from './Lists/list.component';
 import { trashPageComponent } from './sideNavBar/trash-page.component';
 import { suggestedCardsComponent } from './Cards/suggested-card.component';
+import { priorityComponent } from './Cards/priority.component';
 
 
 
@@ -49,7 +50,9 @@ import { suggestedCardsComponent } from './Cards/suggested-card.component';
     sharedWithMeComponent,
     listComponent,
     trashPageComponent,
-    suggestedCardsComponent
+    suggestedCardsComponent,
+    priorityCardsComponent,
+    priorityComponent
 
     
   

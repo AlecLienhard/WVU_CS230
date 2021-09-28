@@ -1,0 +1,9 @@
+<div class = "container-fluid">
+    <div class =  "d-flex flex-row">
+        <div *ngFor= "let card of cards">
+
+            <app-priority-cards imagePath = {{card.imagePath}} title = {{card.title}} lastOpened = {{card.lastOpened}}></app-priority-cards>
+
+        </div>
+    </div>
+</div>
