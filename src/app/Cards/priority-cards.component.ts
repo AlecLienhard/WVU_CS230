@@ -10,6 +10,8 @@ export class priorityCardsComponent {
     @Input()
     title! :string;
     @Input()
+    icon! :string;
+    @Input()
     lastOpened! :string;
     @Input()
     imagePath! :string;
