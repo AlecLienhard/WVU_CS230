@@ -1,18 +1,22 @@
 import { Component, Injectable, OnInit } from "@angular/core";
-import { priorityInfoService } from "./priority-card.service";
 import { contentCard } from "./card-model";
-
+import { priorityInfoService } from "./priority-card.service";
 
 @Component({
-    selector: "priority-card",
+    selector: "priority-info",
     templateUrl: "priority.component.html"
+
 })
 
-export class priorityComponent implements OnInit {
 
+
+export class priorityInfoComponent implements OnInit {
     cardInfo: contentCard[] = [];
+
     constructor(private infoService: priorityInfoService) {
+
     }
+
 
     ngOnInit(): void {
         console.log("Registering priorityInfo as a subscriber");
@@ -23,10 +27,8 @@ export class priorityComponent implements OnInit {
 
     showPriorityInfo() {
         this.infoService.getCardInfo().subscribe((data: contentCard[]) => {
-            console.log("Entering Loop");
+            console.log(data);
             for(var card of data){
-                console.log(card);
-
                 this.cardInfo.push(card);
             }
 
@@ -34,7 +36,4 @@ export class priorityComponent implements OnInit {
     
      
         }
-
-    }
-
-
+}

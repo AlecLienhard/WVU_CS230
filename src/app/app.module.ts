@@ -26,7 +26,6 @@ import { trashPageComponent } from './sideNavBar/trash-page.component';
 import { suggestedCardsComponent } from './Cards/suggested-card.component';
 import { priorityComponent } from './Cards/priority.component';
 import { HttpClientModule } from '@angular/common/http';
-import { userInfoComponent } from './user-info.component';
 
 
 
@@ -55,7 +54,7 @@ import { userInfoComponent } from './user-info.component';
     suggestedCardsComponent,
     priorityCardsComponent,
     priorityComponent,
-    userInfoComponent
+    
 
     
   
