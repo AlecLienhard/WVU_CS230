@@ -18,6 +18,10 @@ export class priorityComponent implements OnInit {
         console.log("Registering priorityInfo as a subscriber");
         this.showPriorityInfo();
 
+        // this.infoService.modifyCardInfo().subscribe(data =>{
+        //     console.log(data);
+        // });
+
 
     }
 

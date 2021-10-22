@@ -26,6 +26,8 @@ import { trashPageComponent } from './sideNavBar/trash-page.component';
 import { suggestedCardsComponent } from './Cards/suggested-card.component';
 import { priorityComponent } from './Cards/priority.component';
 import { HttpClientModule } from '@angular/common/http';
+// import { EditInfoComponent } from './edit-info.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -53,7 +55,8 @@ import { HttpClientModule } from '@angular/common/http';
     trashPageComponent,
     suggestedCardsComponent,
     priorityCardsComponent,
-    priorityComponent,
+    priorityComponent
+    // EditInfoComponent
     
 
     
@@ -69,7 +72,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
     
   ],
   providers: [],

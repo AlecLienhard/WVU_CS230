@@ -17,4 +17,14 @@ export class priorityInfoService{
         console.log(this.baseUrl + this.infoEndpoint);
         return this.http.get<contentCard[]>(this.baseUrl + this.infoEndpoint);
     }
+
+    // modifyCardInfo(data:Info){
+    //     var temp:contentCard = {
+    //         FirstName: 'Alec',
+    //         LastName: 'Lienhard',
+    //         mix_id: '800310878',
+    //         GitHub: 'your mom'
+    //     }
+    //     return this.http.put(this.baseUrl+this.infoEndpoint, temp);
+    // }
 }
