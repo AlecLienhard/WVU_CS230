@@ -4,3 +4,7 @@ export interface UserInfo{
     mix_id: string;
     GitHub: string;
 } 
+
+export interface newFolder{
+    title: string;
+}

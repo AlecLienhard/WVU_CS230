@@ -28,6 +28,7 @@ import { priorityComponent } from './Cards/priority.component';
 import { HttpClientModule } from '@angular/common/http';
 // import { EditInfoComponent } from './edit-info.component';
 import { FormsModule } from '@angular/forms';
+import { newButtonComponent } from './new-button.component';
 
 
 
@@ -55,7 +56,8 @@ import { FormsModule } from '@angular/forms';
     trashPageComponent,
     suggestedCardsComponent,
     priorityCardsComponent,
-    priorityComponent
+    priorityComponent,
+    newButtonComponent
     // EditInfoComponent
     
 
