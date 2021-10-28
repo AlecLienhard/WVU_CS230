@@ -5,7 +5,7 @@ import { contentCard } from "./card-model";
 @Injectable({providedIn: 'root'})
 export class priorityInfoService{
     private baseUrl:string = 'https://drive-app-8a337-default-rtdb.firebaseio.com/';
-    private infoEndpoint:string = '.json';
+    private infoEndpoint:string = 'CardData.json';
 
     constructor(private http: HttpClient){
 

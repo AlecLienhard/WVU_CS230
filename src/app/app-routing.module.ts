@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
 import { BodyMainComponent } from './layout/body-main.component';
-import { newButtonComponent } from './new-button.component';
+import { loginComponent } from './login.component';
 import { computersPageComponent } from './sideNavBar/computers-page.component';
 import { myDrivePageComponent } from './sideNavBar/my-drive-page.component';
 import { priorityPageComponent } from './sideNavBar/priority-page.component';
@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'trash', component: trashPageComponent},
   { path: 'starred', component: starredPageComponent},
   { path: 'sharedDrives', component: sharedDrivesComponent},
-  { path: 'newModal', component: newButtonComponent},
+  { path: 'login', component: loginComponent},
   { path: 'recent', component: recentPageComponent},
   { path: '',   redirectTo: '/myDrive', pathMatch: 'full'}
 ];

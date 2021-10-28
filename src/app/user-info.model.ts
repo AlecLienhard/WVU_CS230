@@ -5,6 +5,7 @@ export interface UserInfo{
     GitHub: string;
 } 
 
-export interface newFolder{
-    title: string;
+export interface loginInfo{
+    Username: string;
+    Password: string;
 }
