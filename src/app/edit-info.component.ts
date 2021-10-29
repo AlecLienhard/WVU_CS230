@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { UserInfoService } from "./Cards/user-info.service";
+import { DatabaseService } from "./database.service";
 import { UserInfo } from "./user-info.model";
 
 @Component({
@@ -7,7 +8,7 @@ import { UserInfo } from "./user-info.model";
     templateUrl: "edit-info.component.html"
 })
 export class EditInfoComponent {
-    constructor(private infoService: UserInfoService){
+    constructor(private infoService: UserInfoService, private dbService:DatabaseService){
 
     }
     onUpdateInfo(data:UserInfo){

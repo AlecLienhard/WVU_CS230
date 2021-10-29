@@ -29,6 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { EditInfoComponent } from './edit-info.component';
 import { FormsModule } from '@angular/forms';
 import { loginComponent } from './login.component';
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from 'src/environments/environment';
 
 
 
@@ -60,6 +62,7 @@ import { loginComponent } from './login.component';
     loginComponent,
     EditInfoComponent
     
+    
 
     
   
@@ -75,7 +78,8 @@ import { loginComponent } from './login.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase, 'drive-app'),
     
   ],
   providers: [],
