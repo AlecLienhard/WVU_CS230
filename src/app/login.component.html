@@ -1,21 +1,41 @@
-<div class = "container">
+<div class="container">
     <div class="row">
         <div class="col-6">
-            <form #postForm = "ngForm" (ngSubmit) = "onCreateFolder(postForm.value)"> 
+            <form #postForm="ngForm" (ngSubmit)="onCreateFolder(postForm.value)">
                 <div class="input-group">
                     <span class="input-group-text">Username</span>
-                    <input type="text"  class="form-control" ngModel name="UserName">
-                    
-                  </div>
-                  <div class="input-group">
+                    <input type="text" class="form-control" ngModel name="UserName">
+
+                </div>
+                <div class="input-group">
                     <span class="input-group-text">Password</span>
-                    <input type="text"  class="form-control" ngModel name="Password">
-                   
-                  </div>
-                  
-                  <button class = "btn btn-light" type="submit">
-                      Login
-                  </button>
+                    <input type="text" class="form-control" ngModel name="Password">
+
+                </div>
+
+                <button class="btn btn-light" type="submit">
+                    Login
+                </button>
             </form>
+
+            <p *ngIf="info == undefined">Failed fetching User Info from Server</p>
+            <div *ngIf="info != undefined">
+                <div class="container-fluid">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="flex-column">
+                            Username: {{info.UserName}}
+
+                        </div>
+                        <hr>
+                        <hr>
+                        <div class="flex-column">
+                            Password:{{info.Password}}
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>

@@ -6,6 +6,6 @@ export interface UserInfo{
 } 
 
 export interface loginInfo{
-    Username: string;
+    UserName: string;
     Password: string;
 }
