@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
+import { AuthComponent } from 'src/auth/auth.component';
 import { BodyMainComponent } from './layout/body-main.component';
 import { loginComponent } from './login.component';
 import { computersPageComponent } from './sideNavBar/computers-page.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'sharedDrives', component: sharedDrivesComponent},
   { path: 'login', component: loginComponent},
   { path: 'recent', component: recentPageComponent},
+  { path: 'auth', component: AuthComponent},
   { path: '',   redirectTo: '/myDrive', pathMatch: 'full'}
 ];
 

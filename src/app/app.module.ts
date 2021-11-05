@@ -31,6 +31,7 @@ import { FormsModule } from '@angular/forms';
 import { loginComponent } from './login.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
+import { AuthComponent } from 'src/auth/auth.component';
 
 
 
@@ -60,7 +61,8 @@ import { environment } from 'src/environments/environment';
     priorityCardsComponent,
     priorityComponent,
     loginComponent,
-    EditInfoComponent
+    EditInfoComponent,
+    AuthComponent
     
     
 
